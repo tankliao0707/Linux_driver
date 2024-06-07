@@ -1,5 +1,5 @@
 #!/bin/bash
-insmod "$(pwd)/gy_521.ko"
+insmod "../driver/gy_521.ko"
 sleep 2
 chmod 777 "/dev/gy_521"
 ./App $1
