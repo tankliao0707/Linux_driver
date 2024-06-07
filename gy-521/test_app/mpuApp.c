@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 	if(argc < 2){
-		times = 10;
+		times = 1;
 		printf("print mpu6050 data default times = %d\n", times);
 	}
 	else{
