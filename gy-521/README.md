@@ -19,7 +19,11 @@ That read accelerometer, Gyroscope and temperature. Driver is using ioctl to rea
     ```
     $ sudo ./app.sh
     ``` 
-    
+4. The app.sh with argument. The argument talk to app run how many timesE
+- Example, if you want to run 10 times. following below:
+	```
+	$ sudo ./app.sh 10
+	```    
 # Driver Command list
  That is kinds of cmd which select cmd from user space. 
 ```
