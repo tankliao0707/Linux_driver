@@ -1,7 +1,7 @@
 # GY-521 board 
 GY-521 was uesing MPU6050 chip. This project create a kernel module driver.
 The project develop on raspberry pi 3 that using i2c to write and read GY-521 board.
-That read accelerometer, Gyroscope and temperature. 
+That read accelerometer, Gyroscope and temperature. Driver is using ioctl to read and write board.
 
 
 # Usage 
