@@ -149,11 +149,11 @@ typedef struct mpu_data_reg {
 
 
 // That is kinds of cmd which select cmd from user space. 
-#define	READ_ALL 	0 		// Re
-#define	READ_ACCEL 	1 
-#define	READ_GYRO 	2 
-#define	READ_TEMP 	3 
-#define READ_REG 	4
-#define	WRITE_REG 	5
+#define	READ_ALL 	0 		// Read Accelerometer, Gyroscope and Temperature.
+#define	READ_ACCEL 	1 		// only Read Accelerometer.
+#define	READ_GYRO 	2 		// only Read Gyroscope.
+#define	READ_TEMP 	3 		// only Read Temperature.
+#define READ_REG 	4		// Read any register.
+#define	WRITE_REG 	5		// Read any register.
 
 #endif /* DRIVER_GY_521_H_ */
